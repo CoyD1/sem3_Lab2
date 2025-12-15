@@ -14,7 +14,7 @@ endif()
 
 if(UNIX AND NOT APPLE)
     set(CPACK_GENERATOR "DEB")
-    set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Ivan Obuhov <vanushabrend@gmail.com>")
+    set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Apranovich Konstantin <apranovichkostya@gmail.com>")
 endif()
 
 include(CPack)
