@@ -53,6 +53,9 @@ jobs:
       - name: Build
         run: cmake --build build --config Release
 
+      - name: Run
+        run: ./build/LAB2
+
       - name: Run GTests
         run: ./build/Gtests/GTestTests
 
@@ -80,6 +83,9 @@ jobs:
 
       - name: Build
         run: cmake --build build --config Release
+
+      - name: Run
+        run: ./build/LAB1
 
       - name: Run GTests
         shell: cmd
